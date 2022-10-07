@@ -37,7 +37,7 @@ const Products = (props: Props) => {
                     </div>{/* .flex-right */}
                 </div>{/* flex-row */}
             </div>
-            {/* main product */}
+            {/* main */}
             <main id="main" >
                 <div className="row category-page-row">
                     <div className="col large-3 hide-for-medium ">
@@ -57,33 +57,44 @@ const Products = (props: Props) => {
                                 </div>
                             </form></aside><aside id="woocommerce_products-3" className="widget woocommerce widget_products"><span className="widget-title shop-sidebar">Sản phẩm</span><div className="is-divider small" /><ul className="product_list_widget"><li>
                                 <a href="http://mauweb.monamedia.net/converse/san-pham/chuck-70-psy-kicks-ox-4/">
-                                    <img width={100} height={100} src="http://mauweb.monamedia.net/converse/wp-content/uploads/2019/05/men-psy-1-100x100.jpg" className="attachment-woocommerce_gallery_thumbnail size-woocommerce_gallery_thumbnail"  srcSet="http://mauweb.monamedia.net/converse/wp-content/uploads/2019/05/men-psy-1-100x100.jpg 100w, http://mauweb.monamedia.net/converse/wp-content/uploads/2019/05/men-psy-1-150x150.jpg 150w" sizes="(max-width: 100px) 100vw, 100px" />		<span className="product-title">Chuck 70 Psy-Kicks Ox</span>
+                                    <img width={100} height={100} src="http://mauweb.monamedia.net/converse/wp-content/uploads/2019/05/men-psy-1-100x100.jpg" className="attachment-woocommerce_gallery_thumbnail size-woocommerce_gallery_thumbnail" srcSet="http://mauweb.monamedia.net/converse/wp-content/uploads/2019/05/men-psy-1-100x100.jpg 100w, http://mauweb.monamedia.net/converse/wp-content/uploads/2019/05/men-psy-1-150x150.jpg 150w" sizes="(max-width: 100px) 100vw, 100px" />		<span className="product-title">Chuck 70 Psy-Kicks Ox</span>
                                 </a>
                                 <span className="woocommerce-Price-amount amount">2,800,000&nbsp;<span className="woocommerce-Price-currencySymbol">₫</span></span>
                             </li>
                                 <li>
-                                    <a href="http://mauweb.monamedia.net/converse/san-pham/chuck-70-psy-kicks-ox-3/">
-                                        <img width={100} height={100} src="http://mauweb.monamedia.net/converse/wp-content/uploads/2019/05/women-psy-2-100x100.jpg" className="attachment-woocommerce_gallery_thumbnail size-woocommerce_gallery_thumbnail"  srcSet="http://mauweb.monamedia.net/converse/wp-content/uploads/2019/05/women-psy-2-100x100.jpg 100w, http://mauweb.monamedia.net/converse/wp-content/uploads/2019/05/women-psy-2-150x150.jpg 150w" sizes="(max-width: 100px) 100vw, 100px" />		<span className="product-title">Chuck 70 Psy-Kicks Ox</span>
-                                    </a>
-                                    <span className="woocommerce-Price-amount amount">1,800,000&nbsp;<span className="woocommerce-Price-currencySymbol">₫</span></span>
+                                    <div style={{ display: 'flex' }}>
+                                        <div>
+                                            <a href="http://mauweb.monamedia.net/converse/san-pham/chuck-70-psy-kicks-ox-4/">
+                                                <img width={100} height={100} src="http://mauweb.monamedia.net/converse/wp-content/uploads/2019/05/men-psy-1-100x100.jpg" className="attachment-woocommerce_gallery_thumbnail size-woocommerce_gallery_thumbnail" srcSet="http://mauweb.monamedia.net/converse/wp-content/uploads/2019/05/men-psy-1-100x100.jpg 100w, http://mauweb.monamedia.net/converse/wp-content/uploads/2019/05/men-psy-1-150x150.jpg 150w" sizes="(max-width: 100px) 100vw, 100px" />
+                                            </a>
+                                        </div>
+
+                                        <div style={{ marginLeft: 40 }}>
+                                            <span className="">Thanh dúc</span>
+                                            <br />
+                                            <div style={{ marginTop: 40 }}>
+                                                <span >2,800,000&nbsp;<span className="">₫</span></span>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </li>
                                 <li>
                                     <a href="http://mauweb.monamedia.net/converse/san-pham/one-star-sunbaked-8/">
-                                        <img width={100} height={100} src="http://mauweb.monamedia.net/converse/wp-content/uploads/2019/05/women-sunbaked-1-100x100.jpg" className="attachment-woocommerce_gallery_thumbnail size-woocommerce_gallery_thumbnail"  srcSet="http://mauweb.monamedia.net/converse/wp-content/uploads/2019/05/women-sunbaked-1-100x100.jpg 100w, http://mauweb.monamedia.net/converse/wp-content/uploads/2019/05/women-sunbaked-1-150x150.jpg 150w" sizes="(max-width: 100px) 100vw, 100px" />		<span className="product-title">One Star Sunbaked</span>
+                                        <img width={100} height={100} src="http://mauweb.monamedia.net/converse/wp-content/uploads/2019/05/women-sunbaked-1-100x100.jpg" className="attachment-woocommerce_gallery_thumbnail size-woocommerce_gallery_thumbnail" srcSet="http://mauweb.monamedia.net/converse/wp-content/uploads/2019/05/women-sunbaked-1-100x100.jpg 100w, http://mauweb.monamedia.net/converse/wp-content/uploads/2019/05/women-sunbaked-1-150x150.jpg 150w" sizes="(max-width: 100px) 100vw, 100px" />		<span className="product-title">One Star Sunbaked</span>
                                     </a>
                                     <span className="woocommerce-Price-amount amount">1,600,000&nbsp;<span className="woocommerce-Price-currencySymbol">₫</span></span>
                                 </li>
                                 <li>
                                     <a href="http://mauweb.monamedia.net/converse/san-pham/one-star-sunbaked-7/">
-                                        <img width={100} height={100} src="http://mauweb.monamedia.net/converse/wp-content/uploads/2019/05/women-sunbaked-2-100x100.jpg" className="attachment-woocommerce_gallery_thumbnail size-woocommerce_gallery_thumbnail"  srcSet="http://mauweb.monamedia.net/converse/wp-content/uploads/2019/05/women-sunbaked-2-100x100.jpg 100w, http://mauweb.monamedia.net/converse/wp-content/uploads/2019/05/women-sunbaked-2-150x150.jpg 150w" sizes="(max-width: 100px) 100vw, 100px" />		<span className="product-title">One Star Sunbaked</span>
+                                        <img width={100} height={100} src="http://mauweb.monamedia.net/converse/wp-content/uploads/2019/05/women-sunbaked-2-100x100.jpg" className="attachment-woocommerce_gallery_thumbnail size-woocommerce_gallery_thumbnail" srcSet="http://mauweb.monamedia.net/converse/wp-content/uploads/2019/05/women-sunbaked-2-100x100.jpg 100w, http://mauweb.monamedia.net/converse/wp-content/uploads/2019/05/women-sunbaked-2-150x150.jpg 150w" sizes="(max-width: 100px) 100vw, 100px" />		<span className="product-title">One Star Sunbaked</span>
                                     </a>
                                     <span className="woocommerce-Price-amount amount">1,600,000&nbsp;<span className="woocommerce-Price-currencySymbol">₫</span></span>
                                 </li>
                                 <li>
                                     <a href="http://mauweb.monamedia.net/converse/san-pham/one-star-sunbaked-6/">
-                                        <img width={100} height={100} src="http://mauweb.monamedia.net/converse/wp-content/uploads/2019/05/women-sunbaked-3-100x100.jpg" className="attachment-woocommerce_gallery_thumbnail size-woocommerce_gallery_thumbnail" 
-                                        
-                                        srcSet="http://mauweb.monamedia.net/converse/wp-content/uploads/2019/05/women-sunbaked-3-100x100.jpg 100w, http://mauweb.monamedia.net/converse/wp-content/uploads/2019/05/women-sunbaked-3-150x150.jpg 150w" sizes="(max-width: 100px) 100vw, 100px" />		<span className="product-title">One Star Sunbaked</span>
+                                        <img width={100} height={100} src="http://mauweb.monamedia.net/converse/wp-content/uploads/2019/05/women-sunbaked-3-100x100.jpg" className="attachment-woocommerce_gallery_thumbnail size-woocommerce_gallery_thumbnail"
+
+                                            srcSet="http://mauweb.monamedia.net/converse/wp-content/uploads/2019/05/women-sunbaked-3-100x100.jpg 100w, http://mauweb.monamedia.net/converse/wp-content/uploads/2019/05/women-sunbaked-3-150x150.jpg 150w" sizes="(max-width: 100px) 100vw, 100px" />		<span className="product-title">One Star Sunbaked</span>
                                     </a>
                                     <span className="woocommerce-Price-amount amount">1,600,000&nbsp;<span className="woocommerce-Price-currencySymbol">₫</span></span>
                                 </li>
@@ -163,6 +174,7 @@ const Products = (props: Props) => {
                     <div className="col large-9">
                         <div className="shop-container">
                             <div className="woocommerce-notices-wrapper" />	<div className="products row row-small large-columns-4 medium-columns-3 small-columns-2 has-shadow row-box-shadow-1 row-box-shadow-2-hover">
+                                
                                 <div className="product-small col has-hover post-897 product type-product status-publish has-post-thumbnail product_cat-chuck-07s-nu product_cat-nu first instock shipping-taxable purchasable product-type-simple">
                                     <div className="col-inner">
                                         <div className="badge-container absolute left top z-1">
@@ -171,7 +183,7 @@ const Products = (props: Props) => {
                                             <div className="box-image">
                                                 <div className="image-fade_in_back">
                                                     <a href="http://mauweb.monamedia.net/converse/san-pham/chuck-70-archive-prints-hi-2/">
-                                                        <img width={300} height={225} src="http://mauweb.monamedia.net/converse/wp-content/uploads/2019/05/women-chuck-07-300x225.jpg" className="attachment-woocommerce_thumbnail size-woocommerce_thumbnail"  />				</a>
+                                                        <img width={300} height={225} src="http://mauweb.monamedia.net/converse/wp-content/uploads/2019/05/women-chuck-07-300x225.jpg" className="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" />				</a>
                                                 </div>
                                                 <div className="image-tools is-small top right show-on-hover">
                                                 </div>
@@ -195,7 +207,7 @@ const Products = (props: Props) => {
                                             <div className="box-image">
                                                 <div className="image-fade_in_back">
                                                     <a href="http://mauweb.monamedia.net/converse/san-pham/chuck-70-psy-kicks-ox-3/">
-                                                        <img width={300} height={225} src="http://mauweb.monamedia.net/converse/wp-content/uploads/2019/05/women-psy-2-300x225.jpg" className="attachment-woocommerce_thumbnail size-woocommerce_thumbnail"  /><img width={300} height={225} src="http://mauweb.monamedia.net/converse/wp-content/uploads/2019/05/women-psy-2-1-300x225.jpg" className="show-on-hover absolute fill hide-for-small back-image"  />				</a>
+                                                        <img width={300} height={225} src="http://mauweb.monamedia.net/converse/wp-content/uploads/2019/05/women-psy-2-300x225.jpg" className="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" /><img width={300} height={225} src="http://mauweb.monamedia.net/converse/wp-content/uploads/2019/05/women-psy-2-1-300x225.jpg" className="show-on-hover absolute fill hide-for-small back-image" />				</a>
                                                 </div>
                                                 <div className="image-tools is-small top right show-on-hover">
                                                 </div>
@@ -219,7 +231,7 @@ const Products = (props: Props) => {
                                             <div className="box-image">
                                                 <div className="image-fade_in_back">
                                                     <a href="http://mauweb.monamedia.net/converse/san-pham/chuck-70-psy-kicks-ox-4/">
-                                                        <img width={300} height={225} src="http://mauweb.monamedia.net/converse/wp-content/uploads/2019/05/men-psy-1-300x225.jpg" className="attachment-woocommerce_thumbnail size-woocommerce_thumbnail"  /><img width={300} height={225} src="http://mauweb.monamedia.net/converse/wp-content/uploads/2019/05/women-psy-1-1-300x225.jpg" className="show-on-hover absolute fill hide-for-small back-image"  />				</a>
+                                                        <img width={300} height={225} src="http://mauweb.monamedia.net/converse/wp-content/uploads/2019/05/men-psy-1-300x225.jpg" className="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" /><img width={300} height={225} src="http://mauweb.monamedia.net/converse/wp-content/uploads/2019/05/women-psy-1-1-300x225.jpg" className="show-on-hover absolute fill hide-for-small back-image" />				</a>
                                                 </div>
                                                 <div className="image-tools is-small top right show-on-hover">
                                                 </div>
@@ -243,7 +255,7 @@ const Products = (props: Props) => {
                                             <div className="box-image">
                                                 <div className="image-fade_in_back">
                                                     <a href="http://mauweb.monamedia.net/converse/san-pham/chuck-taylor-all-star-70-full-gator-hi-2/">
-                                                        <img width={300} height={225} src="http://mauweb.monamedia.net/converse/wp-content/uploads/2019/05/women-chuck-07-1-300x225.jpg" className="attachment-woocommerce_thumbnail size-woocommerce_thumbnail"  />				</a>
+                                                        <img width={300} height={225} src="http://mauweb.monamedia.net/converse/wp-content/uploads/2019/05/women-chuck-07-1-300x225.jpg" className="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" />				</a>
                                                 </div>
                                                 <div className="image-tools is-small top right show-on-hover">
                                                 </div>
@@ -267,7 +279,7 @@ const Products = (props: Props) => {
                                             <div className="box-image">
                                                 <div className="image-fade_in_back">
                                                     <a href="http://mauweb.monamedia.net/converse/san-pham/chuck-taylor-all-star-70-pastel-leather-2/">
-                                                        <img width={300} height={225} src="http://mauweb.monamedia.net/converse/wp-content/uploads/2019/05/women-chuck-07-3-300x225.jpg" className="attachment-woocommerce_thumbnail size-woocommerce_thumbnail"  />				</a>
+                                                        <img width={300} height={225} src="http://mauweb.monamedia.net/converse/wp-content/uploads/2019/05/women-chuck-07-3-300x225.jpg" className="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" />				</a>
                                                 </div>
                                                 <div className="image-tools is-small top right show-on-hover">
                                                 </div>
@@ -291,7 +303,7 @@ const Products = (props: Props) => {
                                             <div className="box-image">
                                                 <div className="image-fade_in_back">
                                                     <a href="http://mauweb.monamedia.net/converse/san-pham/chuck-taylor-all-star-70-poplin-shirt-sao-chep/">
-                                                        <img width={300} height={225} src="http://mauweb.monamedia.net/converse/wp-content/uploads/2019/05/women-chuck-07-2-300x225.jpg" className="attachment-woocommerce_thumbnail size-woocommerce_thumbnail"  /><img width={300} height={225} src="http://mauweb.monamedia.net/converse/wp-content/uploads/2019/05/women-chuck-07-2-1-300x225.jpg" className="show-on-hover absolute fill hide-for-small back-image"  />				</a>
+                                                        <img width={300} height={225} src="http://mauweb.monamedia.net/converse/wp-content/uploads/2019/05/women-chuck-07-2-300x225.jpg" className="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" /><img width={300} height={225} src="http://mauweb.monamedia.net/converse/wp-content/uploads/2019/05/women-chuck-07-2-1-300x225.jpg" className="show-on-hover absolute fill hide-for-small back-image" />				</a>
                                                 </div>
                                                 <div className="image-tools is-small top right show-on-hover">
                                                 </div>
@@ -315,7 +327,7 @@ const Products = (props: Props) => {
                                             <div className="box-image">
                                                 <div className="image-fade_in_back">
                                                     <a href="http://mauweb.monamedia.net/converse/san-pham/chuck-taylor-classic-9/">
-                                                        <img width={300} height={225} src="http://mauweb.monamedia.net/converse/wp-content/uploads/2019/05/women-classic-8-300x225.jpg" className="attachment-woocommerce_thumbnail size-woocommerce_thumbnail"  /><img width={300} height={225} src="http://mauweb.monamedia.net/converse/wp-content/uploads/2019/05/women-classic-8-1-300x225.jpg" className="show-on-hover absolute fill hide-for-small back-image"  />				</a>
+                                                        <img width={300} height={225} src="http://mauweb.monamedia.net/converse/wp-content/uploads/2019/05/women-classic-8-300x225.jpg" className="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" /><img width={300} height={225} src="http://mauweb.monamedia.net/converse/wp-content/uploads/2019/05/women-classic-8-1-300x225.jpg" className="show-on-hover absolute fill hide-for-small back-image" />				</a>
                                                 </div>
                                                 <div className="image-tools is-small top right show-on-hover">
                                                 </div>
@@ -339,7 +351,7 @@ const Products = (props: Props) => {
                                             <div className="box-image">
                                                 <div className="image-fade_in_back">
                                                     <a href="http://mauweb.monamedia.net/converse/san-pham/chuck-taylor-classic-10/">
-                                                        <img width={300} height={225} src="http://mauweb.monamedia.net/converse/wp-content/uploads/2019/05/women-classic-7-300x225.jpg" className="attachment-woocommerce_thumbnail size-woocommerce_thumbnail"  /><img width={300} height={225} src="http://mauweb.monamedia.net/converse/wp-content/uploads/2019/05/women-classic-7-1-300x225.jpg" className="show-on-hover absolute fill hide-for-small back-image"  />				</a>
+                                                        <img width={300} height={225} src="http://mauweb.monamedia.net/converse/wp-content/uploads/2019/05/women-classic-7-300x225.jpg" className="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" /><img width={300} height={225} src="http://mauweb.monamedia.net/converse/wp-content/uploads/2019/05/women-classic-7-1-300x225.jpg" className="show-on-hover absolute fill hide-for-small back-image" />				</a>
                                                 </div>
                                                 <div className="image-tools is-small top right show-on-hover">
                                                 </div>
@@ -363,7 +375,7 @@ const Products = (props: Props) => {
                                             <div className="box-image">
                                                 <div className="image-fade_in_back">
                                                     <a href="http://mauweb.monamedia.net/converse/san-pham/chuck-taylor-classic-11/">
-                                                        <img width={300} height={225} src="http://mauweb.monamedia.net/converse/wp-content/uploads/2019/05/women-classic-6-300x225.jpg" className="attachment-woocommerce_thumbnail size-woocommerce_thumbnail"  /><img width={300} height={225} src="http://mauweb.monamedia.net/converse/wp-content/uploads/2019/05/women-classic-6-1-300x225.jpg" className="show-on-hover absolute fill hide-for-small back-image"  />				</a>
+                                                        <img width={300} height={225} src="http://mauweb.monamedia.net/converse/wp-content/uploads/2019/05/women-classic-6-300x225.jpg" className="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" /><img width={300} height={225} src="http://mauweb.monamedia.net/converse/wp-content/uploads/2019/05/women-classic-6-1-300x225.jpg" className="show-on-hover absolute fill hide-for-small back-image" />				</a>
                                                 </div>
                                                 <div className="image-tools is-small top right show-on-hover">
                                                 </div>
@@ -387,7 +399,7 @@ const Products = (props: Props) => {
                                             <div className="box-image">
                                                 <div className="image-fade_in_back">
                                                     <a href="http://mauweb.monamedia.net/converse/san-pham/chuck-taylor-classic-12/">
-                                                        <img width={300} height={225} src="http://mauweb.monamedia.net/converse/wp-content/uploads/2019/05/women-classic-5-300x225.jpg" className="attachment-woocommerce_thumbnail size-woocommerce_thumbnail"  /><img width={300} height={225} src="http://mauweb.monamedia.net/converse/wp-content/uploads/2019/05/women-classic-5-1-300x225.jpg" className="show-on-hover absolute fill hide-for-small back-image"  />				</a>
+                                                        <img width={300} height={225} src="http://mauweb.monamedia.net/converse/wp-content/uploads/2019/05/women-classic-5-300x225.jpg" className="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" /><img width={300} height={225} src="http://mauweb.monamedia.net/converse/wp-content/uploads/2019/05/women-classic-5-1-300x225.jpg" className="show-on-hover absolute fill hide-for-small back-image" />				</a>
                                                 </div>
                                                 <div className="image-tools is-small top right show-on-hover">
                                                 </div>
@@ -411,7 +423,7 @@ const Products = (props: Props) => {
                                             <div className="box-image">
                                                 <div className="image-fade_in_back">
                                                     <a href="http://mauweb.monamedia.net/converse/san-pham/chuck-taylor-classic-13/">
-                                                        <img width={300} height={225} src="http://mauweb.monamedia.net/converse/wp-content/uploads/2019/05/women-classic-4-300x225.jpg" className="attachment-woocommerce_thumbnail size-woocommerce_thumbnail"  /><img width={300} height={225} src="http://mauweb.monamedia.net/converse/wp-content/uploads/2019/05/women-classic-4-1-300x225.jpg" className="show-on-hover absolute fill hide-for-small back-image"  />				</a>
+                                                        <img width={300} height={225} src="http://mauweb.monamedia.net/converse/wp-content/uploads/2019/05/women-classic-4-300x225.jpg" className="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" /><img width={300} height={225} src="http://mauweb.monamedia.net/converse/wp-content/uploads/2019/05/women-classic-4-1-300x225.jpg" className="show-on-hover absolute fill hide-for-small back-image" />				</a>
                                                 </div>
                                                 <div className="image-tools is-small top right show-on-hover">
                                                 </div>
@@ -427,6 +439,7 @@ const Products = (props: Props) => {
                                         </div>{/* box */}
                                     </div>{/* .col-inner */}
                                 </div>{/* col */}
+                                
                                 <div className="product-small col has-hover post-905 product type-product status-publish has-post-thumbnail product_cat-classic-nu product_cat-nu last instock shipping-taxable purchasable product-type-simple">
                                     <div className="col-inner">
                                         <div className="badge-container absolute left top z-1">
@@ -435,7 +448,7 @@ const Products = (props: Props) => {
                                             <div className="box-image">
                                                 <div className="image-fade_in_back">
                                                     <a href="http://mauweb.monamedia.net/converse/san-pham/chuck-taylor-classic-14/">
-                                                        <img width={300} height={225} src="http://mauweb.monamedia.net/converse/wp-content/uploads/2019/05/women-classic-3-300x225.jpg" className="attachment-woocommerce_thumbnail size-woocommerce_thumbnail"  /><img width={300} height={225} src="http://mauweb.monamedia.net/converse/wp-content/uploads/2019/05/women-classic-3-1-300x225.jpg" className="show-on-hover absolute fill hide-for-small back-image"  />				</a>
+                                                        <img width={300} height={225} src="http://mauweb.monamedia.net/converse/wp-content/uploads/2019/05/women-classic-3-300x225.jpg" className="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" /><img width={300} height={225} src="http://mauweb.monamedia.net/converse/wp-content/uploads/2019/05/women-classic-3-1-300x225.jpg" className="show-on-hover absolute fill hide-for-small back-image" />				</a>
                                                 </div>
                                                 <div className="image-tools is-small top right show-on-hover">
                                                 </div>
