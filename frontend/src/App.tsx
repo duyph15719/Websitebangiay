@@ -4,16 +4,24 @@ import './App.css';
 import { Router } from 'express';
 import { Route, Routes } from 'react-router-dom';
 import Homepage from './pages/Homepage';
-import Layoutclient from './pages/Layout/Layoutclient';
+import Layoutclient from './pages/Layout/Layoutclient'
+import Products from './components/products';
 
 
 function App() {
   return (
-<Routes>
-  <Route path= {'/'} element ={< Layoutclient />}>
-    <Route index element = {< Homepage />} />
-  </Route>
-</Routes>
+
+    <Routes>
+      <Route path={'/'} element={< Layoutclient />}>
+        <Route index element={< Homepage />} />
+
+      </Route>
+      <Route path={'/products'} element={< Layoutclient />}>
+        <Route index element={< Products />} />
+
+      </Route>
+    </Routes>
+
   );
 }
 
