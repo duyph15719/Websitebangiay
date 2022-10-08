@@ -1,5 +1,7 @@
 import React from 'react'
 import { Outlet } from 'react-router-dom'
+import Footer from '../../components/Footer/Footer'
+import Header from '../../components/Header/Header'
 
 
 
@@ -7,11 +9,11 @@ import { Outlet } from 'react-router-dom'
 const Layoutclient = () => {
   return (
     <div>
-       <header>đây là header</header>
+       <header><Header/></header>
         <main>
             <Outlet />
         </main>
-        <footer> đây là footer</footer>
+        <footer> <Footer/></footer>
     </div>
   )
 }
