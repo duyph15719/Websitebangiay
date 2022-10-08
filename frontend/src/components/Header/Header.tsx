@@ -117,7 +117,7 @@ const Header = (props: Props) => {
 
           </Collapse>
           <div className="Menu-con"><Link className='text-[13px] text-[rgb(189, 189, 189)] font-bold ' to="a">Trang Chủ</Link></div>
-          <div className="Menu-con"><Link className='text-[13px] text-[rgb(189, 189, 189)] font-bold ' to="a">Trang Chủ</Link></div>
+          <div className="Menu-con"><Link className='text-[13px] text-[rgb(189, 189, 189)] font-bold ' to="about">Giới Thiệu</Link></div>
           <div className="Menu-con"><Link className='text-[13px] text-[rgb(189, 189, 189)] font-bold ' to="a">Trang Chủ</Link></div>
           <div className="Menu-con"><Link className='text-[13px] text-[rgb(189, 189, 189)] font-bold ' to="a">Trang Chủ</Link></div>
           <b>HOTLINE: 076 922 0162</b>
@@ -135,7 +135,7 @@ const Header = (props: Props) => {
 <nav className="max-w-6xl mx-auto">
   <ul className="p-3 text-center">
     <li className="inline-block p-3"><Link to="">Trang chu</Link></li>
-    <li className="inline-block p-3"><Link to="">Trang chu</Link></li>
+    <li className="inline-block p-3"><Link to="about">Giới Thiệu</Link></li>
     <li className="inline-block p-3"><Link to="">Trang chu</Link></li>
     <li className="inline-block p-3">
       <Link to="">
