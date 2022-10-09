@@ -1,5 +1,5 @@
 import React from 'react'
-import '../ProductList/productlist.css';
+import './productlist.css';
 type Props = {}
 
 const Products = (props: Props) => {
