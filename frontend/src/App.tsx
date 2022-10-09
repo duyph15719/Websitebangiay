@@ -5,7 +5,7 @@ import { Router } from 'express';
 import { Route, Routes } from 'react-router-dom';
 import Homepage from './pages/Homepage';
 import Layoutclient from './pages/Layout/Layoutclient'
-import Products from './components/products';
+import Products from './components/ProductList/products';
 
 
 function App() {
