@@ -1,4 +1,5 @@
 import React from 'react'
+
 import Accessory from './Accessory/Accessory'
 import Banner from '../components/Banner/Banner'
 import Category from './Category/Category'
@@ -16,6 +17,7 @@ const Homepage = () => {
 
     </>
   )
+
 }
 
 export default Homepage
