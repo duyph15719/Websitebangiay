@@ -6,6 +6,7 @@ import NewProducts from './NewProduct/NewProducts'
 import Banner2 from '../components/Banner2/Banner2'
 
 const Homepage = () => {
+
    return (
       <>
          <Banner />
@@ -16,6 +17,7 @@ const Homepage = () => {
 
       </>
    )
+
 
 }
 

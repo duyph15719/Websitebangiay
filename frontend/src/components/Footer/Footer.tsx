@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import './footer.css'
 
 type Props = {}
 
@@ -62,7 +63,8 @@ const Footer = (props: Props) => {
             <div className='max-w-7xl mx-auto grid md:grid-cols-3 grid-cols-1 gap-4 pt-10 text-white pb-5'>
                 <h1 className="text-white font-bold text-lg">ĐĂNG KÝ NHẬN THÔNG TIN</h1>
                 <form action="">
-                    <input className='w-72 h-[45px] p-3' type="text" placeholder="Email" /><button className='w-24 h-[45px] bg-red-900'>Đăng Ký</button>
+                <input type="" name="" id="email" required placeholder="Email Address" />
+                <input type="submit" value="ĐĂNG KÝ" id="send" />
                 </form>
                 <div className="icon flex">
 

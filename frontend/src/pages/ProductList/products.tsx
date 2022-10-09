@@ -5,7 +5,7 @@ type Props = {}
 const Products = (props: Props) => {
     return (
         <div>
-            <div>products</div>
+           
             <div className="shop-page-title category-page-title page-title ">
                 <div className="page-title-inner flex-row  medium-flex-wrap container">
                     <div className="flex-col flex-grow medium-text-center">
