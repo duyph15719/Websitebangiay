@@ -1,18 +1,19 @@
 import React from 'react'
 import { Outlet } from 'react-router-dom'
+import Footer from '../../components/Footer/Footer'
+import Header from '../../components/Header/Header'
 
 
 const Layoutclient = () => {
   return (
     <div>
-      <h1>Đức Mt</h1>
-      <header>đây là header</header>
-      <main>
-        <Outlet />
-      </main>
 
-      <footer> đây là footer</footer>
-      <script src=""></script>
+       <header><Header/></header>
+        <main>
+            <Outlet />
+        </main>
+        <footer> <Footer/></footer>
+
     </div>
   )
 }
