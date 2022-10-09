@@ -1,10 +1,9 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-import { Router } from 'express';
 import { Route, Routes } from 'react-router-dom';
 import Homepage from './pages/Homepage';
 import Layoutclient from './pages/Layout/Layoutclient';
+import Lienhe from './pages/lienhe';
 
 
 function App() {
@@ -12,6 +11,7 @@ function App() {
 <Routes>
   <Route path= {'/'} element ={< Layoutclient />}>
     <Route index element = {< Homepage />} />
+    <Route path='/Lienhe' element={<Lienhe/>}/>
   </Route>
 </Routes>
   );
