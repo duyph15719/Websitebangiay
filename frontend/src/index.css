@@ -881,7 +881,7 @@ form {
 .full-width .ubermenu-nav,
 .container,
 .row {
-  max-width: 1530px;
+  
 }
 
 /* col */
@@ -1784,4 +1784,67 @@ input[type='button'] {
   transition: transform .3s, border .3s, background .3s, box-shadow .3s, opacity .3s, color .3s;
   text-rendering: optimizeLegibility;
   box-sizing: border-box;
+}
+.has-hover:hover .hover-slide, .has-hover:hover .hover-slide-in, .has-hover:hover .hover-zoom, .has-hover:hover .hover-zoom-in, .has-hover:hover .show-on-hover {
+  opacity: 1;
+  transform: scale(1) translateZ(0) translateY(0) !important;
+  pointer-events: inherit;
+}
+.has-hover .bg, .has-hover [class*="image-"] img {
+  transition: filter .6s, opacity .6s, transform .6s, box-shadow .3s;
+}
+.video-fit video, .video-fit iframe, img.back-image, .image-cover img, .has-format img, .has-equal-box-heights .box-image img {
+  right: 0;
+  width: 100%;
+  height: 100%;
+  bottom: 0;
+  left: 0;
+  top: 0;
+  position: absolute;
+  object-position: 50% 50%;
+  object-fit: cover;
+  font-family: 'object-fit: cover;';
+}
+.box-image img {
+  max-width: 100%;
+  width: 100%;
+  transform: translateZ(0);
+  margin: 0 auto;
+}
+.show-on-hover, .hover-slide, .hover-slide-in, .hover-zoom, .hover-zoom-in {
+  opacity: 0;
+  transition: opacity .5s, transform .3s, max-height .6s, filter .6s;
+  filter: blur(0);
+  pointer-events: none;
+}
+.fill {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  right: 0;
+  bottom: 0;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+.widget {
+  margin-bottom: 1.5em;
+}
+article, aside, details, figcaption, figure, footer, header, main, menu, nav, section, summary {
+  display: block;
+}
+ul.menu>li, .widget>ul>li {
+  list-style: none;
+  margin-bottom: 0.3em;
+  text-align: left;
+  margin: 0;
+}
+.entry-content ol li, .entry-summary ol li, .col-inner ol li, .entry-content ul li, .entry-summary ul li, .col-inner ul li {
+  margin-left: 1.3em;
+}
+.widget li {
+  list-style: none;
+}
+li {
+  margin-bottom: 0.6em;
 }
