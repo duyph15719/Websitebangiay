@@ -7,16 +7,20 @@ import NewProducts from './NewProduct/NewProducts'
 import Banner2 from '../components/Banner2/Banner2'
 
 const Homepage = () => {
-  return (
-    <>
-    <Banner/>
-    <Category/>
-    <NewProducts/>
-    <Banner2/>
-    <Accessory/>
 
-    </>
-  )
+
+   return (
+      <>
+         <Banner />
+         <Category />
+         <NewProducts />
+         <Banner2 />
+         <Accessory />
+
+      </>
+   )
+
+
 
 }
 

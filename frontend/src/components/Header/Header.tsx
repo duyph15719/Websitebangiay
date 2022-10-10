@@ -118,7 +118,7 @@ const Header = (props: Props) => {
           </Collapse>
           <div className="Menu-con"><Link className='text-[13px] text-[rgb(189, 189, 189)] font-bold ' to="a">Trang Chủ</Link></div>
           <div className="Menu-con"><Link className='text-[13px] text-[rgb(189, 189, 189)] font-bold ' to="about">Giới Thiệu</Link></div>
-          <div className="Menu-con"><Link className='text-[13px] text-[rgb(189, 189, 189)] font-bold ' to="a">Trang Chủ</Link></div>
+          <div className="Menu-con"><Link className='text-[13px] text-[rgb(189, 189, 189)] font-bold ' to="">Trang Chủ</Link></div>
           <div className="Menu-con"><Link className='text-[13px] text-[rgb(189, 189, 189)] font-bold ' to="a">Trang Chủ</Link></div>
           <b>HOTLINE: 076 922 0162</b>
         </Drawer>
@@ -138,16 +138,16 @@ const Header = (props: Props) => {
     <li className="inline-block p-3"><Link to="about">Giới Thiệu</Link></li>
     <li className="inline-block p-3"><Link to="">Trang chu</Link></li>
     <li className="inline-block p-3">
-      <Link to="">
+      <Link to="products">
         <Popover className='pl-3' placement="bottom" content={dropdown} trigger="hover">
-          GIỎ HÀNG/0 đ
+         Nam
         </Popover>
       </Link>
     </li>
     <li className="inline-block p-3"><Link to="">Trang chu</Link></li>
     <li className="inline-block p-3"><Link to="">Trang chu</Link></li>
     <li className="inline-block p-3"><Link to="">Trang chu</Link></li>
-    <li className="inline-block p-3"><Link to="">Trang chu</Link></li>
+    <li className="inline-block p-3"><Link to="lienhe">Liên Hệ</Link></li>
   </ul>
 </nav>
 </section>
