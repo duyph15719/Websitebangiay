@@ -4,8 +4,8 @@ import morgan from 'morgan';
 import mongoose from 'mongoose';
 
 
-import categoryRoute from './routes/Categori';
-import userRoute from './routes/user'
+import categoryRoute from '../routes/Categori';
+import userRoute from '../routes/user'
 
 const app = express();
 
