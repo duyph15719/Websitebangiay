@@ -7,7 +7,7 @@ import { LayoutListed } from './components/layoutListed'
 
 type Props = {}
 
-const dashbroad = (props: Props) => {
+const Dashbroad = (props: Props) => {
   return (
     <>
       <section>
@@ -40,4 +40,4 @@ const dashbroad = (props: Props) => {
   )
 }
 
-export default dashbroad
+export default Dashbroad
