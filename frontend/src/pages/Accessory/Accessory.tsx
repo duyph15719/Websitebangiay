@@ -73,7 +73,7 @@ const Accessory = (props: Props) => {
           
    
       <div className='flex justify-center text-black'>
-      <button className='w-28 border border-indigo-600  hover:text-white h-10 hover:bg-slate-500 hover:transition delay-150  ease-in-out'  >Xem tất cả</button>
+      <button className='w-36 border border-indigo-600  hover:text-white h-10 hover:bg-slate-500 hover:transition delay-150  ease-in-out'  >Xem tất cả</button>
       </div>
           
         </div>

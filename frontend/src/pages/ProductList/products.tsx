@@ -1,5 +1,13 @@
 import React from 'react'
+
 import './productlist.css';
+
+
+import { Link } from 'react-router-dom';
+
+
+import './productlist.css';
+
 type Props = {}
 
 const Products = (props: Props) => {
@@ -12,10 +20,16 @@ const Products = (props: Props) => {
                         <div className="is-large">
                             <nav className="woocommerce-breadcrumb breadcrumbs"><a href="">Trang chủ</a> <span className="divider">/</span> Nữ</nav></div>
                         <div className="category-filtering category-filter-row show-for-medium">
-                            <a href="#" data-open="#shop-sidebar" data-visible-after="true" data-pos="left" className="filter-button uppercase plain">
+                            <Link to="#" data-open="#shop-sidebar" data-visible-after="true" data-pos="left" className="filter-button uppercase plain" />
                                 <i className="icon-menu" />
+
                                 <strong >Lọc</strong>
-                            </a>
+
+
+                                <strong>Lọc</strong>
+                           
+                                <strong >Lọc</strong>
+                           
                             <div className="inline-block">
                                 <div className="widget woocommerce widget_layered_nav_filters"><ul><li className="chosen"><a rel="nofollow" aria-label="Xóa bộ lọc" href="" className="tooltipstered">Nhỏ nhất <span className="woocommerce-Price-amount amount">1,120,000&nbsp;<span className="woocommerce-Price-currencySymbol">₫</span></span></a></li><li className="chosen"><a rel="nofollow" aria-label="Xóa bộ lọc" href="" className="tooltipstered">Lớn nhất <span className="woocommerce-Price-amount amount">2,800,000&nbsp;<span className="woocommerce-Price-currencySymbol">₫</span></span></a></li></ul></div>	</div>
                         </div>

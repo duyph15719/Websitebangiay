@@ -1,5 +1,6 @@
 import React from 'react'
 import AOS from 'aos';
+import './Banner2.css'
 import 'aos/dist/aos.css'; // You can also use <link> for styles
 // ..
 AOS.init();
@@ -32,10 +33,10 @@ type Props = {}
 
 const Banner2 = (props: Props) => {
   return (
-    <div style={{ backgroundImage: `url("http://mauweb.monamedia.net/converse/wp-content/uploads/2019/05/slide-2.jpg")`, backgroundRepeat: 'no-repeat' }} className=" max-w-7xl mx-auto h-[432px] mb-3">
-      <div className="text-white pt-[216px] pl-10 text-center mt-3">
-        <p><h1 data-aos="fade-right" className="text-white font-bold text-[32px]">KHUYẾN MÃI</h1>
-          <h1 data-aos="fade-left" className="text-yellow-500  font-bold text-[32px]">
+    <div  className="Bg-banner max-w-7xl mx-auto h-[432px] mb-3">
+      <div className="text-white pt-[216px] pl-10 text-center ">
+        <p><h1  className="text-white z-10 font-bold text-[32px]">KHUYẾN MÃI</h1>
+          <h1  className="text-yellow-500 z-20 font-bold text-[32px]">
             GIẢM GIÁ 50%
           </h1></p>
 

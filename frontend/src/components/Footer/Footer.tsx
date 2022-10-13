@@ -66,7 +66,7 @@ const Footer = (props: Props) => {
                 <input type="" name="" id="email" required placeholder="Email Address" />
                 <input type="submit" value="ĐĂNG KÝ" id="send" />
                 </form>
-                <div className="icon flex">
+                <div className="icona flex">
 
                     <img className='w-14' src="http://mauweb.monamedia.net/converse/wp-content/uploads/2019/05/payment1.png" alt="" />
                     <img className='w-14' src="http://mauweb.monamedia.net/converse/wp-content/uploads/2019/05/payment2.png" alt="" />

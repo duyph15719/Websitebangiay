@@ -17,7 +17,10 @@ const Layoutclient = () => {
         </main>
         <footer> <Footer/></footer>
 
+
     </div>
+
+
   )
 }
 
