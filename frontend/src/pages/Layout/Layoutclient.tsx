@@ -7,16 +7,12 @@ import Header from '../../components/Header/Header'
 const Layoutclient = () => {
   return (
     <div>
-
-
-       <header><Header/></header>
-
-       
-        <main>
-            <Outlet />
-        </main>
-        <footer> <Footer/></footer>
-</div>
+      <header><Header /></header>
+      <main>
+        <Outlet />
+      </main>
+      <footer> <Footer /></footer>
+    </div>
 
   )
 }

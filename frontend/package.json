@@ -26,6 +26,7 @@
     "react-slick": "^0.29.0",
     "recharts": "^2.1.14",
     "slick-carousel": "^1.8.1",
+    "tw-elements": "^1.0.0-alpha12",
     "typescript": "^4.8.4",
     "web-vitals": "^2.1.4"
   },
