@@ -18,6 +18,7 @@ import Layoutclient from './pages/Layout/Layoutclient';
 import About from './pages/About/About';
 import Products from './pages/ProductList/products';
 import Lienhe from './pages/lienhe';
+import SingInUp from './pages/SingInUp/SingInUp';
 
 
 
@@ -42,6 +43,7 @@ function App() {
         <Route path={"/products"} element={< Products />} />
 
         <Route path='/lienhe' element={<Lienhe/>}/>
+        <Route path='/login' element={<SingInUp/>}/>
       </Route>
     </Routes>
 
