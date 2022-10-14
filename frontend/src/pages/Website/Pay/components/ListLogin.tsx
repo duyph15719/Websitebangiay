@@ -8,7 +8,6 @@ const ListLogin = (props: Props) => {
         return (
             <>
                 <div className="cursor-pointer group  ">
-
                     <p>Nếu trước đây bạn đã mua hàng của chúng tôi, vui lòng điền đầy đủ thông tin đăng nhập dưới đây. Nếu bạn là khách hàng mới, vui lòng tiếp tục các bước tiếp theo.</p>
                     <div className="grid gap-6 mb-6 lg:grid-cols-2">
                         <div>
