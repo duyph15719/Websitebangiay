@@ -146,7 +146,7 @@ const Header = (props: Props) => {
     </li>
     <li className="inline-block p-3"><Link to="">Trang chu</Link></li>
     <li className="inline-block p-3"><Link to="">Trang chu</Link></li>
-    <li className="inline-block p-3"><Link to="">Trang chu</Link></li>
+    <li className="inline-block p-3"><Link to="">Tin Tức</Link></li>
     <li className="inline-block p-3"><Link to="lienhe">Liên Hệ</Link></li>
   </ul>
 </nav>
