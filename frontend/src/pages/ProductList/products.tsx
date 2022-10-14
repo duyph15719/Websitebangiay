@@ -478,9 +478,7 @@ const Products = (props: Props) => {
                                         </div>{/* box */}
                                     </div>{/* .col-inner */}
                                 </div>{/* col */}
-                            </div>{/* row */}<div className="container">
-                                <nav className="woocommerce-pagination">
-                                    <ul className="page-numbers nav-pagination links text-center"><li><span aria-current="page" className="page-number current">1</span></li><li><a className="page-number" href="http://mauweb.monamedia.net/converse/danh-muc/nu/page/2/?min_price=1120000">2</a></li><li><a className="next page-number" href="http://mauweb.monamedia.net/converse/danh-muc/nu/page/2/?min_price=1120000"><i className="icon-angle-right" /></a></li></ul></nav>
+                           
                             </div>
                         </div>{/* shop container */}
                     </div>

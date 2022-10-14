@@ -269,31 +269,6 @@ button,
     margin-bottom: 0;
 }
 
-.widget ul {
-    margin: 0;
-}
-
-pre,
-blockquote,
-form,
-figure,
-p,
-dl,
-ul,
-ol {
-    margin-bottom: 1.3em;
-}
-
-ol,
-ul {
-    margin-top: 0;
-    padding: 0;
-}
-
-ul {
-    list-style: disc;
-}
-
 .widget_layered_nav_filters ul li.chosen {
     display: inline-block;
     margin-right: 10px;
@@ -327,15 +302,7 @@ li {
     font-weight: normal;
 }
 
-ul.menu>li>a,
-ul.menu>li>span:first-child,
-.widget>ul>li>a,
-.widget>ul>li>span:first-child {
-    display: inline-block;
-    padding: 6px 0;
-    -ms-flex: 1;
-    flex: 1;
-}
+
 
 a:hover,
 a.remove:hover,
@@ -1754,7 +1721,7 @@ input[type='button'] {
     text-shadow: none;
     line-height: 2.4em;
     min-height: 2.5em;
-    padding: 0 1.2em;
+  
     max-width: 100%;
     transition: transform .3s, border .3s, background .3s, box-shadow .3s, opacity .3s, color .3s;
     text-rendering: optimizeLegibility;
