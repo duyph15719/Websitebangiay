@@ -1,17 +1,8 @@
 import React from 'react';
-
-
 import logo from '.logo.svg';
 import './App.css';
-
-
 import './App.css';
-
-
 import './App.css';
-
-
-
 import { Route, Routes } from 'react-router-dom';
 import Homepage from './pages/Homepage';
 import Layoutclient from './pages/Layout/Layoutclient';
@@ -28,13 +19,6 @@ import SingInUp from './pages/SingInUp/SingInUp';
 function App() {
 
   return (
-
-
-
-
-
-
-
     <Routes>
       <Route path={'/'} element={< Layoutclient />}>
         <Route index element={< Homepage />} />
@@ -46,9 +30,6 @@ function App() {
         <Route path='/login' element={<SingInUp/>}/>
       </Route>
     </Routes>
-
-
-
   );
 }
 
