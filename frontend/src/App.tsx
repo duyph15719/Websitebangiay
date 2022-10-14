@@ -25,6 +25,10 @@ import Users from './pages/admin/User/User';
 import UserAdd from './pages/admin/User/UserAdd';
 import UserEdit from './pages/admin/User/UserEdit';
 import ErrorsWeb from './pages/404/errorsWeb';
+import NewsPage from './pages/News/News';
+import NewsDetail from './pages/News/Newsdetail';
+
+
 
 
 function App() {
@@ -52,6 +56,11 @@ function App() {
         <Route path={"/about"} element={< About />} />
         <Route path={"/products"} element={< Products />} />
         <Route path={"/lienhe"} element={< Lienhe />} />
+        <Route path="news">
+            <Route index element={<NewsPage />} />
+            {/* <Route path=":_id" element={< NewsDetail/>} /> */}
+          </Route>
+          <Route path={"/newsdetail"} element={< NewsDetail />} />
         <Route path='cart' element={<Cart />} />
         <Route path='pay' element={<Pay />} />
       </Route>
