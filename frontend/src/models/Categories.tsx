@@ -1,4 +1,4 @@
-export type ICategori ={
-    id?: string;
-    name:string;
-}
+export type ICategori = {
+  id?: string;
+  name: string;
+};
