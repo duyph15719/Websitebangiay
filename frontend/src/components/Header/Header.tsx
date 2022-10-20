@@ -259,9 +259,9 @@ const Header = (props: Props) => {
           <div className="Menu-con">
             <Link
               className="text-[13px] text-[rgb(189, 189, 189)] font-bold "
-              to=""
+              to="purchased"
             >
-              Trang Chủ
+              Lịch sử mua
             </Link>
           </div>
           <div className="Menu-con">
@@ -302,7 +302,7 @@ const Header = (props: Props) => {
               <Link to="about">Giới Thiệu</Link>
             </li>
             <li className="inline-block p-3">
-              <Link to="">Trang chu</Link>
+              <Link to="purchased">Lịch sử</Link>
             </li>
             <li className="inline-block p-3">
               <Link to="products">

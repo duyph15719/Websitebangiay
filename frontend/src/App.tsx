@@ -24,6 +24,7 @@ import UserEdit from "./pages/admin/User/UserEdit";
 import ErrorsWeb from "./pages/404/errorsWeb";
 import NewsPage from "./pages/News/News";
 import NewsDetail from "./pages/News/Newsdetail";
+import Purchased from "./pages/Purchased";
 
 function App() {
   const [user, setUser] = useState<IUsers[]>([]);
@@ -59,6 +60,7 @@ function App() {
         <Route path={"/newsdetail"} element={<NewsDetail />} />
         <Route path="cart" element={<Cart />} />
         <Route path="pay" element={<Pay />} />
+        <Route path="purchased" element={<Purchased />} />
       </Route>
       <Route path="admin" element={<AdminLayout />}>
         <Route index element={<Dashbroad />} />
