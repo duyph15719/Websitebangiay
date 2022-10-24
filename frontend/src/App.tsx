@@ -13,14 +13,6 @@ import { listUser } from "./api/User";
 import { listCategory } from "./api/Categories";
 import Cart from "./pages/Website/Cart/Cart";
 import Pay from "./pages/Website/Pay/Pay";
-import AdminLayout from "./pages/Layout/AdminLayout";
-import Dashbroad from "./pages/admin/dashbroad";
-import Categories from "./pages/admin/Categories/Categories";
-import CategoriesAdd from "./pages/admin/Categories/CategoriesAdd";
-import CategoriesEdit from "./pages/admin/Categories/CategoriesEdit";
-import Users from "./pages/admin/User/User";
-import UserAdd from "./pages/admin/User/UserAdd";
-import UserEdit from "./pages/admin/User/UserEdit";
 import ErrorsWeb from "./pages/404/errorsWeb";
 import NewsPage from "./pages/News/News";
 import NewsDetail from "./pages/News/Newsdetail";
@@ -61,19 +53,6 @@ function App() {
         <Route path="cart" element={<Cart />} />
         <Route path="pay" element={<Pay />} />
         <Route path="purchased" element={<Purchased />} />
-      </Route>
-      <Route path="admin" element={<AdminLayout />}>
-        <Route index element={<Dashbroad />} />
-        <Route path="categories">
-          <Route index element={<Categories categories={categories} />} />
-          <Route path="add" element={<CategoriesAdd />} />
-          <Route path=":id/edit" element={<CategoriesEdit />} />
-        </Route>
-        <Route path="user">
-          <Route index element={<Users user={user} />} />
-          <Route path="add" element={<UserAdd />} />
-          <Route path=":id/edit" element={<UserEdit />} />
-        </Route>
       </Route>
       <Route path="*" element={<ErrorsWeb />} />
     </Routes>
