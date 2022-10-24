@@ -1,6 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
-import styles from "./styles.module.css";
+import "./styles.module.css";
 type Props = {};
 
 const Purchased = (props: Props) => {
@@ -12,7 +12,7 @@ const Purchased = (props: Props) => {
             <div className="row">
               <div className="large-12 text-center col">
                 <h1 className="page-title is-large uppercase">
-                  <span>Sản Phẩm đã mua: </span>{" "}
+                  <span className="bg-white">Sản Phẩm đã mua: </span>{" "}
                 </h1>
               </div>
             </div>
@@ -59,8 +59,8 @@ const Purchased = (props: Props) => {
                   id="flatsome_recent_posts-4"
                   className="widget flatsome_recent_posts"
                 >
-                  <span className="widget-title ">
-                    <span>Lịch sử mua hàng</span>
+                  <span className="widget-title bg-white ">
+                    <span className="bg-white">Lịch sử mua hàng</span>
                   </span>
                   <div className="is-divider small"></div>{" "}
                   <ul>
@@ -176,9 +176,9 @@ const Purchased = (props: Props) => {
                               fontWeight: "bold",
                             }}
                           >
-                            <span className="post-date-day">02</span>
+                            <span className="post-date-day bg-white">02</span>
                             <br />
-                            <span className="post-date-month is-xsmall">
+                            <span className="post-date-month is-xsmall bg-white">
                               Th10
                             </span>
                           </div>
@@ -241,9 +241,9 @@ const Purchased = (props: Props) => {
                               fontWeight: "bold",
                             }}
                           >
-                            <span className="post-date-day">02</span>
+                            <span className="post-date-day bg-white">02</span>
                             <br />
-                            <span className="post-date-month is-xsmall">
+                            <span className="post-date-month is-xsmall bg-white">
                               Th10
                             </span>
                           </div>
@@ -306,9 +306,9 @@ const Purchased = (props: Props) => {
                               fontWeight: "bold",
                             }}
                           >
-                            <span className="post-date-day">02</span>
+                            <span className="bg-white post-date-day">02</span>
                             <br />
-                            <span className="post-date-month is-xsmall">
+                            <span className="bg-white post-date-month is-xsmall">
                               Th10
                             </span>
                           </div>
@@ -371,9 +371,9 @@ const Purchased = (props: Props) => {
                               fontWeight: "bold",
                             }}
                           >
-                            <span className="post-date-day">02</span>
+                            <span className="post-date-day bg-white">02</span>
                             <br />
-                            <span className="post-date-month is-xsmall">
+                            <span className="post-date-month is-xsmall bg-white">
                               Th10
                             </span>
                           </div>
@@ -436,9 +436,9 @@ const Purchased = (props: Props) => {
                               fontWeight: "bold",
                             }}
                           >
-                            <span className="post-date-day">02</span>
+                            <span className="post-date-day bg-white">02</span>
                             <br />
-                            <span className="post-date-month is-xsmall">
+                            <span className="post-date-month is-xsmall bg-white">
                               Th10
                             </span>
                           </div>
@@ -501,9 +501,9 @@ const Purchased = (props: Props) => {
                               fontWeight: "bold",
                             }}
                           >
-                            <span className="post-date-day">02</span>
+                            <span className="post-date-day bg-white">02</span>
                             <br />
-                            <span className="post-date-month is-xsmall">
+                            <span className="post-date-month is-xsmall bg-white">
                               Th10
                             </span>
                           </div>

@@ -4,7 +4,7 @@ import ListAddress from "./components/ListAddress";
 import ListLogin from "./components/ListLogin";
 import ListPromoCode from "./components/ListPromoCode";
 import ListSignup from "./components/ListSigup";
-
+import "./Pay.css"
 type Props = {};
 
 const Pay = (props: Props) => {

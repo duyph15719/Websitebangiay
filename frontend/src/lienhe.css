@@ -274,7 +274,6 @@ text-rendering: optimizeLegibility;
 box-sizing: border-box;
 }
 .button, input[type='submit'], input[type='submit'].button, input[type='reset'].button, input[type='button'].button {
-  color: #fff;
 background-color: #446084;
 background-color: var(--primary-color);
 border-color: rgba(0, 0, 0, 0.05);
