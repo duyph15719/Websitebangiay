@@ -9,7 +9,7 @@
   color: white;
   padding: 3px;
 }
-.box:hover .xemthem {
+.box1:hover .xemthem {
   transition: 1s ease-in-out;
 
   --tw-scale-x: 1.2;
@@ -18,7 +18,7 @@
     rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y))
     scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
-.box:hover {
+.box1:hover {
   transition: 1s ease-in-out;
   border: 1px solid red;
 }

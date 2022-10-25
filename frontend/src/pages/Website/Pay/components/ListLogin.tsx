@@ -42,7 +42,7 @@ const ListLogin = (props: Props) => {
         marginTop: greetingStatus ? 1 : -30
     })  as any;
     return (
-        <div className=' pl-10'>
+        <div className=' '>
             <label className="inline-flex items-center">
                 <button onClick={() => displayGreeting((a) => !a)} className="button" >Bạn đã có tài khoản? Ấn vào đây để đăng nhập</button>
             </label>
