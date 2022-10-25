@@ -1,11 +1,11 @@
-import { useState } from 'react';
-import { InputComponent } from './components/Input';
-import ListAddress from './components/ListAddress';
-import ListLogin from './components/ListLogin';
-import ListPromoCode from './components/ListPromoCode';
-import ListSignup from './components/ListSigup';
+import { useState } from "react";
+import { InputComponent } from "./components/Input";
+import ListAddress from "./components/ListAddress";
+import ListLogin from "./components/ListLogin";
+import ListPromoCode from "./components/ListPromoCode";
+import ListSignup from "./components/ListSigup";
 
-type Props = {}
+type Props = {};
 
 const Pay = (props: Props) => {
 
@@ -167,14 +167,13 @@ const Pay = (props: Props) => {
                         {transferForm.payment2 && transfer()}
                     </div>
 
-                    <button className="bg-orange-500 font-semibold hover:bg-orange-600 py-3 text-sm text-white uppercase p-2 mt-5">Đặt Hàng</button>
-                </div>
-            </div>
+          <button className="bg-orange-500 font-semibold hover:bg-orange-600 py-3 text-sm text-white uppercase p-2 mt-5">
+            Đặt Hàng
+          </button>
         </div>
+      </div>
+    </div>
+  );
+};
 
-
-
-    )
-}
-
-export default Pay
+export default Pay;
