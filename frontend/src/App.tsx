@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import "./App.css";
 import { Route, Routes } from "react-router-dom";
 import Homepage from "./pages/Homepage";
-import Layoutclient from "./pages/Layout/Layoutclient";
+import Layoutclient from "./Layout/Layoutclient";
 import "antd/dist/antd.css";
 import About from "./pages/About/About";
 import Products from "./pages/ProductList/products";

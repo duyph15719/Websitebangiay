@@ -25,7 +25,7 @@ const ListPromoCode = (props: Props) => {
         marginTop: greetingStatus ? 1 : -30
     })  as any;
     return (
-        <div className=' pl-10'>
+        <div className=''>
             <label className="inline-flex items-center">
                 <button name='login' onClick={() => displayGreeting((a) => !a)} >Bạn có mã ưu đãi? Ấn vào đây để nhập mã</button>
             </label>
