@@ -30,7 +30,7 @@ const Cart = (props: Props) => {
         <div className="md:w-4/6 bg-white px-10 py-10 sm:w-full">
           <div className="flex justify-between border-b pb-8">
             <h1 className="font-semibold text-2xl">Giỏ Hàng</h1>
-            <h2 className="font-semibold text-2xl">3 Items</h2>
+            <h2 className="font-semibold text-2xl text-right">3 Items</h2>
           </div>
           <div className="flex mt-10 mb-5">
             <h3 className="font-semibold text-gray-600 text-sm uppercase w-2/5">
@@ -70,7 +70,7 @@ const Cart = (props: Props) => {
             Tiếp Tục Xem Sản Phẩm
           </a>
         </div>
-        <div id="summary" className="md:w-2/6 px-8 py-10 sm:w-full">
+        <div id="summary" className="md:w-2/6 px-8 py-10 sm:w-full border-l border-gray-6000">
           <h1 className="font-semibold text-2xl border-b pb-8">Thông Tin</h1>
           <div className="flex justify-between mt-10 mb-5">
             <span className="font-semibold text-sm uppercase">

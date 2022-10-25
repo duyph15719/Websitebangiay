@@ -14,20 +14,18 @@ const Pay = (props: Props) => {
   });
   const cash = () => {
     return (
-      <ul className="text-grey-darkest py-2 ">
-        <li className="pb-2">Trả tiền mặt khi giao hàng.</li>
-      </ul>
+      <p className="text-grey-darkest py-3 pl-3 text-base ">
+          Trả tiền mặt khi giao hàng.
+      </p>
     );
   };
   const transfer = () => {
     return (
-      <ul className="text-grey-darkest py-3 ">
-        <li className="pb-2">
+      <p className="text-grey-darkest py-3 pl-3 text-base ">
           Thực hiện thanh toán vào ngay tài khoản ngân hàng của chúng tôi. Vui
           lòng sử dụng Mã đơn hàng của bạn trong phần Nội dung thanh toán. Đơn
-          hàng sẽ đươc giao sau khi tiền đã chuyển.
-        </li>
-      </ul>
+          hàng sẽ đươc giao sau khi tiền đã chuyển. 
+      </p>
     );
   };
   const handldClick = (e: any) => {

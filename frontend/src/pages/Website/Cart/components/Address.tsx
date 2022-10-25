@@ -102,9 +102,9 @@ const ListAddress = (props: Props) => {
         </span>
       </div>
       <div className="text-right w-4/6">
-        <p>Giao hàng miễn phí</p>
+        <p>Giao hàng miễn phí.</p>
         <p>Ước tính Hà Nội, Việt Nam.</p>
-        <button onClick={() => displayGreeting((a) => !a)}>
+        <button className="text-right" onClick={() => displayGreeting((a) => !a)}>
           Địa chỉ giao hàng
         </button>
         {!greetingStatus ? (
