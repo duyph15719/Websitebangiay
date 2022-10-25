@@ -18,6 +18,7 @@ import NewsPage from "./pages/News/News";
 import NewsDetail from "./pages/News/Newsdetail";
 import Purchased from "./pages/Purchased";
 
+
 function App() {
   const [user, setUser] = useState<IUsers[]>([]);
   const [categories, setCategories] = useState<ICategori[]>([]);
@@ -55,6 +56,7 @@ function App() {
         <Route path="purchased" element={<Purchased />} />
       </Route>
       <Route path="*" element={<ErrorsWeb />} />
+
     </Routes>
   );
 }

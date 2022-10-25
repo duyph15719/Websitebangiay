@@ -272,6 +272,20 @@ const Lienhe = (props: Props) => {
           </div>
         </div>
       </div>
+<<<<<<< HEAD
+    </div>
+    <div>
+
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3723.863981044336!2d105.7445984148835!3d21.038127785993215!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x313454b991d80fd5%3A0x53cefc99d6b0bf6f!2zVHLGsOG7nW5nIENhbyDEkeG6s25nIEZQVCBQb2x5dGVjaG5pYw!5e0!3m2!1svi!2s!4v1665301432897!5m2!1svi!2s" width="1550" height="400" style={{border:'0'}}  loading="lazy"></iframe>
+
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3723.863981044336!2d105.7445984148835!3d21.038127785993215!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x313454b991d80fd5%3A0x53cefc99d6b0bf6f!2zVHLGsOG7nW5nIENhbyDEkeG6s25nIEZQVCBQb2x5dGVjaG5pYw!5e0!3m2!1svi!2s!4v1665301432897!5m2!1svi!2s" width="100%" height="400" style={{border:'0'}}  loading="lazy"></iframe>
+
+    </div>
+  </>
+   
+  )
+}
+=======
       <div>
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3723.863981044336!2d105.7445984148835!3d21.038127785993215!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x313454b991d80fd5%3A0x53cefc99d6b0bf6f!2zVHLGsOG7nW5nIENhbyDEkeG6s25nIEZQVCBQb2x5dGVjaG5pYw!5e0!3m2!1svi!2s!4v1665301432897!5m2!1svi!2s"
@@ -284,5 +298,6 @@ const Lienhe = (props: Props) => {
     </>
   );
 };
+>>>>>>> d49d5f32eb511bd78c1f01dc7176305b5609c518
 
 export default Lienhe;
