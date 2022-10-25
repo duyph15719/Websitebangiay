@@ -5,7 +5,7 @@ type Props = {};
 const Category = (props: Props) => {
   return (
     <div className="max-w-7xl mx-auto text-white grid md:grid-cols-3 grid-cols-1 gap-4 pt-10  ">
-      <div className="box  text-center">
+      <div className="box1  text-center">
         <div className="flex justify-center">
           <img
             className=""
@@ -23,7 +23,7 @@ const Category = (props: Props) => {
 
         <div className="showbox slideright">box 1</div>
       </div>
-      <div className="box  text-center">
+      <div className="box1  text-center">
         <div className="flex justify-center">
           <img
             className=""
@@ -40,7 +40,7 @@ const Category = (props: Props) => {
         <button className="xemthem">Xem Sản Phẩm</button>
         <div className="showbox slideright">box 1</div>
       </div>
-      <div className="box  text-center">
+      <div className="box1  text-center">
         <div className="flex justify-center">
           <img
             className=""
